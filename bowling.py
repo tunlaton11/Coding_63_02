@@ -46,7 +46,7 @@ def cal_score(score_sheet): #ฟังชั่นคำนวณคะแนน
 
 
 def input_score(): #ฟังชั่นหลักในการ input และ output
-    score_sheet = input("Input bowling's frame : ") # ตัวอย่าง input -> X -/ X 5- 8/ 9- X 81 1- 4/X
+    score_sheet = input("Input bowling's frame : ") # ตัวอย่าง input (ใส่บรรทัดเดียวคั่นด้วย space) -> X -/ X 5- 8/ 9- X 81 1- 4/X
     print('\t'.join(['Round', 'frame', 'score', 'total']))
     print("Total Score: ", cal_score(score_sheet))
 
